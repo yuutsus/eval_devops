@@ -1,0 +1,16 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "Simple NodeJS API with MongoDB connector",
+    "scripts": {
+        "start": "node api.js",
+        "dev": "nodemon api.js"
+    },
+    "author": "oBeeOne",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.9.0",
+        "nodemon": "^2.0.2"
+    }
+}
